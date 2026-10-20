@@ -28,7 +28,7 @@ def sobel_opencv(img):
     return cv.convertScaleAbs(magnitude)
 
 def main():
-    name = "data3.png"
+    name = "img.png"
     image_path = f"images/{name}"
     os.makedirs("results/", exist_ok=True)
     img = cv.imread(image_path, cv.IMREAD_GRAYSCALE)
