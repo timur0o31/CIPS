@@ -62,7 +62,7 @@ $$
 
 | Исходное изображение |          Нативная реализация           | OpenCV |
 |:---:|:--------------------------------------:|:---:|
-| ![Исходное](images/img.png) | ![Native](results/sobel_nativeimg.png) | ![OpenCV](results/sobel_opencv_img.png) |
+| ![Исходное](images/img.png) | ![Native](results/sobel_native_img.png) | ![OpenCV](results/sobel_opencv_img.png) |
 
 |     Исходное изображение      |            Нативная реализация            |                  OpenCV                   |
 |:-----------------------------:|:-----------------------------------------:|:-----------------------------------------:|
