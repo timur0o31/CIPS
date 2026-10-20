@@ -5,11 +5,11 @@ import os
 def sobel_native(img):
     sobel_x = [[-1, 0, 1],[-2,0,2],[-1,0,1]]
     sobel_y = [[-1,-2,-1],[0,0,0],[1,2,1]]
-    width, height = img.shape
+    height, width = img.shape
     res = img.copy()
     res.fill(0)
-    for x in range(1, height-1):
-        for y in range(1, width-1):
+    for y in range(1, height-1):
+        for x in range(1, width-1):
             G_x = 0
             G_y = 0
             for i in range(-1, 2):
